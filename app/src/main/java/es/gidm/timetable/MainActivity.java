@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 final EditText taskEditText = new EditText(this);
                 AlertDialog dialog = new AlertDialog.Builder(this)
                         .setTitle("Añadir nueva tarea")
-                        .setMessage("¿Que tarea quieres realizar ahora?")
+                        .setMessage("Tarea para añadir a la lista: ")
                         .setView(taskEditText)
                         .setPositiveButton("Añadir", new DialogInterface.OnClickListener() {
                             @Override
