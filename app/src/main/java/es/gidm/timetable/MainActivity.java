@@ -20,6 +20,10 @@ import java.util.ArrayList;
 import es.gidm.timetable.db.TaskContract;
 import es.gidm.timetable.db.TaskDbHelper;
 
+
+/**
+ * Created by Miguel and JCristobal on 08/06/2016.
+ */
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private TaskDbHelper mHelper;
